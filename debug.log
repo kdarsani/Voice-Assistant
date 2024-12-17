@@ -1,0 +1,16 @@
+[25484:14932:1005/143511.478:VERBOSE1:updater.cc(331)] Version: 130.0.6679.0, opt, 32 bits, command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"
+[25484:14932:1005/143511.478:VERBOSE1:updater.cc(333)] OS version: 10.0.22631.4169, System uptime (seconds): 229616, parent pid: 8708
+[8704:21860:1005/143511.519:VERBOSE1:updater.cc(331)] Version: 130.0.6679.0, opt, 32 bits, command line: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" --crash-handler --system "--database=C:\Program Files (x86)\Google\GoogleUpdater\130.0.6679.0\Crashpad" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=130.0.6679.0 "--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log" --initial-client-data=0x2d0,0x2d4,0x2d8,0x2ac,0x2dc,0xdba6cc,0xdba6d8,0xdba6e4
+[8704:21860:1005/143511.519:VERBOSE1:updater.cc(333)] OS version: 10.0.22631.4169, System uptime (seconds): 229616, parent pid: 25484
+[25484:14932:1005/143511.520:VERBOSE1:crash_reporter.cc(121)] Crash handler launched and ready.
+[25484:14932:1005/143511.520:ERROR:crash_client.cc(116)] Failed to fetch completed crash reports: 3
+[25484:14932:1005/143511.520:ERROR:crash_client.cc(132)] Failed to fetch pending crash reports: 3
+[25484:14932:1005/143511.520:VERBOSE2:update_usage_stats_task_win.cc(57)] No app enables usagestats.
+[25484:14932:1005/143511.520:VERBOSE2:update_usage_stats_task_win.cc(52)] usagestats enabled by app {8a69d345-d564-463c-aff1-a69d9e530f96}
+[25484:14932:1005/143511.520:ERROR:file_io_win.cc(181)] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\130.0.6679.0\Crashpad\settings.dat: Access is denied. (0x5)
+[25484:14932:1005/143511.521:ERROR:file_io_win.cc(181)] CreateFile C:\Program Files (x86)\Google\GoogleUpdater\130.0.6679.0\Crashpad\settings.dat: Access is denied. (0x5)
+[25484:14932:1005/143511.521:VERBOSE1:updater.cc(101)] Crash reporting initialized.
+[25484:14932:1005/143511.521:VERBOSE1:updater.cc(156)] IsUserAdmin: 0, IsUserNonElevatedAdmin: 1, IsUACOn: 1, IsElevatedWithUACOn: 0, LUA: 1
+[25484:14932:1005/143511.521:VERBOSE1:updater.cc(224)] Unknown command line switch.
+[25484:14932:1005/143511.522:VERBOSE1:updater.cc(338)] UpdaterMain (--) returned 75009.
+[8704:21860:1005/143511.594:VERBOSE1:updater.cc(338)] UpdaterMain (--crash-handler) returned 0.
